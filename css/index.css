@@ -1,0 +1,536 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'TSRotgerBlack';
+    /* src: url(../fonts/alfont_com_AlFont_com_TSRotger-Black.otf); */
+    /* src: url('fonts/alfont_com_AlFont_com_TSRotger-Black.otf'); */
+}
+
+
+@font-face {
+    font-family: 'Hagrid-Regular';
+    /* src: url(fonts/Hagrid-Regular-trial.ttf); */
+}
+@font-face {
+    font-family: 'Tajawal-Black';
+    /* src: url(../fonts/alfont_com_Tajawal-Black.ttf); */
+}
+@font-face {
+    font-family: 'DroidKufi';
+    /* src: url(../fonts/alfont_com_AlFont_com_DroidKufi-Regular.ttf); */
+}
+@font-face {
+    font-family: 'codec-pro';
+    /* src: url(../fonts/codec-pro.regular.ttf); */
+}
+.first
+{
+    overflow: hidden;
+}
+.langing-img
+{
+    height: 800px;
+     /* background-image: url(FinalSITKSA\sitksa\public\img_landing/landing\ page.png);  */
+    
+}
+.two
+{
+    height: 650px;
+    background-color: #eb3030;
+}
+.second-land h1 
+{
+    color: white;
+    font-family: 'TSRotgerBlack';
+    font-size: 52px;
+    padding-top: 45px;
+    text-align:center;
+    line-height: 1.5;
+}
+.second-bottom
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 95px;
+}
+.second-bottom p 
+{
+    color: white;
+    font-size: 19px;
+    font-family: 'Hagrid-Regular';
+    text-align: right;
+    margin-top: 45px;
+    font-weight: 700;
+}
+.second-bottom .arrow
+{
+    width: 20%;
+    margin-top: 25px;
+}
+.second-bottom .arrow img 
+{
+    width: 80%;
+}
+.second-bottom .zatca
+{
+    margin-top: 45px;
+    width: 50%;
+    position: relative;
+}
+.second-bottom .zatca img 
+{
+    width: 75%;
+    border-radius: 50px;
+    position: absolute;
+    left: 130px;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+.clients-one
+{
+    height: 720px;
+    /* background-image: url(../img/6b106ae8-11e9-4817-a1d3-663de6e67522.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clients-two
+{
+    height: 600px;
+    /* background-image: url(../img/9ed1dfa9-f7b5-4133-85da-1126683727f8.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button
+{
+    text-align: center;
+}
+.btn
+{
+    font-family: 'Tajawal-Black';
+    background-color: #2d52c3;
+    border-radius: 50px;
+    padding: 3px;
+    color: white;
+    font-size: 35px;
+    margin-top: 35px;
+    margin-bottom: 28px;
+    cursor: pointer;
+    width: 265px;
+    font-weight: 700;
+}
+.btn:hover
+{
+    background-color: #2d52c3;
+    color: #eb3030;
+}
+.programs
+{
+    background-color: #2d52c3;
+}
+.programs h1
+{
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    font-family: 'Tajawal-Black';
+}
+.title-program
+{
+    font-family: 'DroidKufi';
+}
+.programs .icons p
+{
+    font-family: 'codec-pro';
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    text-align: right;
+}
+.icons h4
+{
+    font-family: 'Tajawal-Black';
+    color: white;
+    text-align: right;
+}
+.icons img 
+{
+    transition: all 2s;
+}
+.icons img:hover
+{
+    width: 300px !important;
+}
+.box
+{
+    position: relative;
+}
+.words
+{
+    position: absolute;
+    background-color: #2d52c3;
+    height: 174px;
+    top: 308px;
+    width: 466px;
+    left: 24px;
+    z-index: -1;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 55px;
+}
+.five
+{
+    padding-bottom: 95px;
+}
+.five h1 
+{
+    font-family: 'codec-pro';
+    font-weight: 700;
+}
+.five .five-title
+{
+    font-family: 'Tajawal-Black';
+    font-weight: 600;
+    color: #2d52c3;
+    margin-right: 80px;
+    margin-bottom: 1px;
+    font-size: 22px;
+}
+.five .box
+{
+    transition: all 2s;
+}
+.five .box:hover
+{
+    width: 650px !important;
+}
+.five .box .words
+{
+    transition: all 2s;
+}
+.five .box .words h6
+{
+    transition: all 2s;
+}
+.five .box:hover .words
+{
+    height: 250px !important;
+}
+.five .box:hover .words h6
+{
+    padding-top: 90px !important;
+}
+.words h6
+{
+    font-family: 'Tajawal-Black';
+}
+.words span
+{
+    font-family: 'codec-pro';
+    font-size: 16px;
+}
+.six
+{
+    background-color: #eb3030;
+    height: 700px;
+}
+.date
+{
+    position: relative;
+}
+.date img
+{
+    position: absolute;
+    top: -152px;
+    left: 3px;
+}
+.six .second-title
+{
+    margin-top: 200px;
+    font-family: 'codec-pro';
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.six p span
+{
+    color: black;
+    border-bottom: white solid 2px;
+}
+
+.time
+{
+    margin-top: 15px;
+}
+.month
+{
+    height: 140px;
+    width: 120px;
+    background-color: white;
+    border-radius: 20px;
+}
+ .date-enter
+{
+    line-height: .8;
+    font-family: 'Tajawal-Black';
+    font-weight: 900;
+    font-size: 40px;
+}
+.time .comma
+{
+    font-size: 50px;
+    margin: 0 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.day
+{
+    height: 140px;
+    width: 120px;
+    background-color: white;
+    border-radius: 20px;
+}
+.e-invocie
+{
+    font-family: 'DroidKufi';
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 900;
+}
+.create-invoce
+{
+    font-family: 'Hagrid-Regular';
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 900;
+    color: white;
+}
+.seven
+{
+    background-color: #2d52c3;
+    height: 700px;
+}
+.seven h1
+{
+    color: white;
+    font-family: 'Tajawal-Black';
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 25px;
+    text-align: center;
+}
+.seven p
+{
+    color: white;
+    font-family: 'DroidKufi';
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+}
+.e-mail
+{
+    color: white;
+    font-family: 'codec-pro';
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.arrow-down
+{
+    position: absolute;
+    left: 67px;
+}
+.btn-arrow
+{
+    margin-top: 130px;
+    background-color: #eb3030;
+    font-family: 'Tajawal-Black';
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.btn-arrow:hover
+{
+    background-color: #eb3030;
+    color: white;
+}
+.mail h6
+{
+    font-size: 40px;
+    font-family: 'codec-pro';
+}
+.mail span
+{
+    font-size: 30px;
+    font-family: 'codec-pro';
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (max-width: 500px ) {
+    .first
+    {
+        width: 130% !important;
+    }
+    .langing-img
+    {
+        height: 509px;
+        width: 100%;
+        background-image: url(../img/3deda757-6ee1-49ea-9946-f924cd644520.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .two
+    {
+        width: 130%;
+        height: 500px;
+    }
+    .second-land h1
+    {
+        font-size: 20px;
+    }
+    .second-bottom
+    {
+        margin-top: 10px;
+        flex-direction: column-reverse;
+    }
+    .second-bottom .zatca {
+        margin-top: -27px;
+    margin-left: 130px;
+    width: 50%;
+        position: relative;
+    }
+    .second-bottom .zatca img {
+        width: 100%;
+        border-radius: 50px;
+        position: absolute;
+        left: -24px;
+        top: -10px;
+    }
+    .second-bottom .arrow {
+        width: 50%;
+        margin-top: -44px;
+        margin-left: 127px;
+       
+    }
+    .second-bottom .arrow .arr
+    {
+        content:url("../img/طرودك.gif");
+    }
+    .second-bottom p
+    {
+        font-size: 15px;
+        text-align: center;
+        z-index: 9999999999999;
+    }
+    .three
+    {
+        width: 130%;
+    }
+    .clients-one {
+        height: 313px;
+    }
+    .clients-two {
+        height: 232px;
+    }
+    .btn {
+        font-size: 15px;
+        width: 111px;
+    }
+    .four
+    {
+        width: 130%;
+    }
+    .programs h1
+    {
+        font-size: 20px;
+    }
+    .programs p
+    {
+        font-size: 10px !important;
+        width: 90%;
+        margin: auto;
+    }
+    .five
+    {
+        width: 130%;
+    }
+    .five .box
+    {
+        pointer-events: none;  
+    }
+    .five .words
+    {
+        top: 230px;
+        width: 377px;
+    }
+    .six
+    {
+        width: 130%;
+    }
+    .date img
+    {
+        top: -51px;
+    }
+    .six .second-title
+    {
+        margin-top: 119px;
+    }
+    .e-invocie
+    {
+        font-size: 25px;
+    }
+    .create-invoce
+    {
+        font-size: 20px;
+    }
+    .seven
+    {
+        width: 130%;
+        height: 600px;
+    }
+    .seven h1
+    {
+        font-size: 30px;
+    }
+    .seven p
+    {
+        font-size: 20px;
+    }
+    .e-mail{
+        font-size: 15px;
+    }
+    .arrow-parent
+    {
+        width: 50% !important;
+    }
+    .btn-arrow
+    {
+        width: 100% !important;
+    }
+    .mail 
+    {
+        margin-left: 32px;
+    }
+    .mail h6
+    {
+        font-size: 20px;
+    }
+    .mail span
+    {
+        font-size: 15px;
+    }
+  }

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SOFT Team - Bootstrap Agency Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Bootstrap Agency Template" name="keywords">
+        <meta content="Bootstrap Agency Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/logos/logo-2.png" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="libs/slick/slick-theme.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Header Start -->
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2">
+                            <div class="brand">
+                                <a href="index.html">
+                                    <img src="img/logos/logo-2.png" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="topbar">
+                                <div class="topbar-col">
+                                    <a href="tel:+966148673444"><i class="fa fa-phone-alt"></i>+966148673444</a>
+                                </div>
+                                <div class="topbar-col">
+                                    <a href="mailto:info@sitksa.com"><i class="fa fa-envelope"></i>info@sitksa.com</a>
+                                </div>
+                                <div class="topbar-col">
+                                    <div class="topbar-social">
+                                        <a href="https://www.youtube.com/channel/UCsdV95alqtbUlX1rcE7okxw" target="_blank"><i class="fab fa-youtube"></i></a>
+                                        <a href="https://twitter.com/sitksa1" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/company/sitksa?trk=top_nav_home" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.instagram.com/sit_ksa/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.facebook.com/sitksa/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="navbar navbar-expand-lg bg-light navbar-light" style="direction: rtl;">
+                                <a href="#" class="navbar-brand">القائمة</a>
+                                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                    <div class="navbar-nav ml-auto">
+                                        <a href="index.html" class="nav-item nav-link active">الرئيسية</a>
+                                        <a href="about.html" class="nav-item nav-link">عن الشركة</a>
+                                        <a href="services.html" class="nav-item nav-link">الخدمات</a>
+                                        <a href="portfolio.html" class="nav-item nav-link">المشاريع</a>
+                                        <a href="single.html" class="nav-item nav-link">عملاؤنا</a>
+                                        <a href="contact.html" class="nav-item nav-link">باقات الاستضافة</a>
+                                        <a href="about.html" class="nav-item nav-link">حجز دومين</a>
+                                        <a href="services.html" class="nav-item nav-link">العروض</a>
+                                        <a href="portfolio.html" class="nav-item nav-link">الاخبار</a>
+                                        <a href="single.html" class="nav-item nav-link">الوظائف</a>
+                                        <a href="contact.html" class="btn">اتصل بنا</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header End -->
+
+
+            <!-- Hero Start -->
+            <div class="hero">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2>Creative & Responsive</h2>
+                            <h2><span>HTML5</span> Template</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare</p>
+                            <a class="btn" href="https://htmlcodex.com/bootstrap-agency-template">Download Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/hero.png" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero End -->
+            
+            
+            <!-- About Start -->
+            <div class="about">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div id="video-section">
+                                <div class="youtube-player" data-id="jssO8-5qmag"></div>
+                                
+                                <script>
+                                    document.addEventListener("DOMContentLoaded",
+                                        function() {
+                                            var div, n,
+                                                v = document.getElementsByClassName("youtube-player");
+                                            for (n = 0; n < v.length; n++) {
+                                                div = document.createElement("div");
+                                                div.setAttribute("data-id", v[n].dataset.id);
+                                                div.innerHTML = labnolThumb(v[n].dataset.id);
+                                                div.onclick = labnolIframe;
+                                                v[n].appendChild(div);
+                                            }
+                                        });
+
+                                    function labnolThumb(id) {
+                                        var thumb = '<img src="img/poster.jpg">',
+                                            play = '<div class="play"></div>';
+                                        return thumb.replace("ID", id) + play;
+                                    }
+
+                                    function labnolIframe() {
+                                        var iframe = document.createElement("iframe");
+                                        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+                                        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+                                        iframe.setAttribute("frameborder", "0");
+                                        iframe.setAttribute("allowfullscreen", "1");
+                                        this.parentNode.replaceChild(iframe, this);
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="section-title">Learn About Us</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+            <!-- Service Start -->
+            <div class="service">
+                <div class="container-fluid">
+                    <div class="section-header">
+                        <h2>Our Services</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium ornare velit non</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Web Design</h3>
+                                <img src="img/icon-service-1.png" alt="Service">
+                                <p>Lorem ipsum dolor sit amet elit pretium ornare</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Development</h3>
+                                <img src="img/icon-service-2.png" alt="Service">
+                                <p>Lorem ipsum dolor sit amet elit pretium ornare</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>UI Design</h3>
+                                <img src="img/icon-service-3.png" alt="Service">
+                                <p>Lorem ipsum dolor sit amet elit pretium ornare</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Programming</h3>
+                                <img src="img/icon-service-4.png" alt="Service">
+                                <p>Lorem ipsum dolor sit amet elit pretium ornare</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Graphic Design</h3>
+                                <img src="img/icon-service-5.png" alt="Service">
+                                <p>Lorem ipsum dolor sit amet elit pretium ornare</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Video Editing</h3>
+                                <img src="img/icon-service-6.png" alt="Service">
+                                <p>Lorem ipsum dolor sit amet elit pretium ornare</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>SEO</h3>
+                                <img src="img/icon-service-7.png" alt="Service">
+                                <p>Lorem ipsum dolor sit amet elit pretium ornare</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Online Marketing</h3>
+                                <img src="img/icon-service-8.png" alt="Service">
+                                <p>Lorem ipsum dolor sit amet elit pretium ornare</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service End -->
+
+
+            <!-- FAQs Start -->
+            <div class="faqs">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="section-title">Frequently Asked Questions</h2>
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseThree">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseFour">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <a class="btn" href="">Ask more</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/faqs.jpg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FAQs End -->
+
+
+            <!-- Testimonial Start -->
+            <div class="testimonial">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Clients Review</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium ornare velit non</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="testimonial-slider-nav">
+                                <div class="slider-nav"><img src="img/testimonial-1.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-2.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-3.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-4.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-1.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-2.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-3.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-4.jpg" alt="Testimonial"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="testimonial-slider">
+                                <div class="slider-item">
+                                    <h3>Customer Name</h3>
+                                    <h4>profession</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>Customer Name</h3>
+                                    <h4>profession</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>Customer Name</h3>
+                                    <h4>profession</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>Customer Name</h3>
+                                    <h4>profession</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>Customer Name</h3>
+                                    <h4>profession</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>Customer Name</h3>
+                                    <h4>profession</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>Customer Name</h3>
+                                    <h4>profession</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>Customer Name</h3>
+                                    <h4>profession</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
+
+            <!-- News Start -->
+            <div class="news">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="img/news.jpg" alt="Image">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="section-title">Read Latest News</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- News End -->
+
+
+            <!-- Call to Action Start -->
+            <div class="call-to-action">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-9">
+                            <h2>Get A Free HTML Template</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet metus sit amet
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="btn" href="https://htmlcodex.com/contact">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Call to Action End -->
+
+
+            <!-- Footer Start -->
+            <div class="footer" style="direction: rtl;text-align: right;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="footer-about">
+                                <img src="img/logos/logo-2.png" width="150px" height="150px">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="footer-link">
+                                        <h2>الخدمات</h2>
+                                        <a href="index.html">برمجيات</a>
+                                        <a href="about.html">تطبيقات الهاتف المحمول</a>
+                                        <a href="services.html">نظام ERP</a>
+                                        <a href="portfolio.html">برامج اوركل</a>
+                                        <a href="single.html">شبكات</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="footer-link">
+                                        <h2>فرع القاهرة</h2>
+                                        <a href="https://www.google.com/maps/place/40+Abd+El-Aziz+Fahmy,+El-Nozha,+El+Nozha,+Cairo+Governorate/@30.1094691,31.3340368,17z/data=!3m1!4b1!4m5!3m4!1s0x145815ea3d5c9b3f:0x5e19676c024883c!8m2!3d30.1094691!4d31.3362255" target="_blank"><li class="fa fa-map-marker"></li> مصر - القاهرة - 40 شارع عبدالعزيز فهمى - ميدان هليوبولس - مصر الجديدة</a>
+                                        <a href="mailto:info@sitksa.com"><i class="fa fa-globe"></i> info@sitksa.com</a>
+                                        <a href="tel:+8004422221"><i class="fa fa-phone"></i>8004422221</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; <a href="https://htmlcodex.com">HTML Codex</a>, All Right Reserved.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Template By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

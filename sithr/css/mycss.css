@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&family=Harmattan&display=swap');
+
+body {
+    font-family: 'El Messiri', sans-serif;
+}
+
+.rtl-form-section {
+    direction: rtl;
+    text-align: right;
+}
+
+.rtl-py-4 {
+    direction: rtl;
+    text-align: right;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-right: -0.0625rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu), .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.notification-bell.unread::before {
+    position: absolute;
+    content: normal;
+    background-color: #E11D48;
+    right: 12px;
+    top: 7px;
+    height: 0.75rem;
+    width: 0.75rem;
+    border-radius: 50%;
+    border: 2px solid #F2F4F6;
+}
+
+.form-select {
+    direction: ltr;
+}
+
+.table {
+    direction: rtl;
+    text-align: right;
+}
+
+.form-control-plaintext {
+	display: block;
+	width: 100%;
+	padding-top: .375rem;
+	padding-bottom: .375rem;
+	margin-bottom: 0;
+	line-height: 1.5;
+	color: #212529;
+	background-color: transparent;
+	border: solid transparent;
+	border-width: 1px 0
+}
+
+.form-control-plaintext.form-control-sm,
+.form-control-plaintext.form-control-lg {
+	padding-right: 0;
+	padding-left: 0
+}
+.form-inline .form-control-plaintext {
+    display: inline-block
+}
+.input-group>.form-control+.form-control,
+.input-group>.form-control+.custom-select,
+.input-group>.form-control+.custom-file,
+.input-group>.form-control-plaintext+.form-control,
+.input-group>.form-control-plaintext+.custom-select,
+.input-group>.form-control-plaintext+.custom-file,
+.input-group>.custom-select+.form-control,
+.input-group>.custom-select+.custom-select,
+.input-group>.custom-select+.custom-file,
+.input-group>.custom-file+.form-control,
+.input-group>.custom-file+.custom-select,
+.input-group>.custom-file+.custom-file {
+    margin-left: -1px
+}
+
+.hidden {
+    display: none;
+}
+
+@media print {
+    .print-container, .print-container * {
+        display: none;
+    }
+}

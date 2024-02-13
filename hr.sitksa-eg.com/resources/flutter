@@ -1,0 +1,214 @@
+//column & Expanded
+body:Container(
+    color:Colors.purpleAccent,
+    width: 400.0, // double.infinity
+    child: Column(
+    mainAxisSize: MainAxisSize.[max,min,values],   
+    children:
+    [
+      Expanded(
+        flex:1,
+        child:Container(
+        height:100.0,
+        color:Colors.red,       
+        child: Text('First Text',
+        style:TextStyle(
+            color:Colors.white,
+            fontSize:30.0,
+            backgroundColor: Colors.red,
+        ),))),
+        Text('Second Text',
+        style:TextStyle(
+            color:Colors.white,
+            fontSize:30.0,
+            backgroundColor: Colors.green,
+        ),
+        ),
+    ],
+),//column
+),//container
+
+//column attributes
+//mainAxisSize: MainAxisSize.[max,min,values]
+//mainAxisAlignment:
+//crossAxisAlignment:
+
+//mainAxis=>Y,crossAxis=>X
+//     s          s
+//     s           c
+//     s           E
+//     c           s
+//     c           c
+//     c           E
+//     E           S
+//     E           C
+//     E           E
+
+// row
+Row
+(
+    children: 
+    [
+        Container
+        (
+            color:Colors.blue,
+            child: Text(
+                'First',
+                style: TextStyle(
+                    fontSize: 20.0,
+                    color: Colors.white,
+
+                ),
+            ),
+        ),
+    ],
+),
+
+//single child scroll view
+// scrollDirection: Axis.horizontal //if child: Row
+
+// stack & container
+Column(
+children:
+[
+    Image(
+        image: NetworkImage(
+            'path',
+        ),
+        height:100.0,
+        width:100.0,
+        fit:BoxFit.cover,
+    ),
+],
+),
+
+
+// List view
+class MessangerScreen extends StatelessWidget
+{
+
+    //list view
+                ListView.builder(
+                scrollDirection:Axis.horizontal,    
+                itemBuilder: (context, index)=>buildChatItem(), 
+                separtorBuilder: (context, index)=> SizedBox(
+                    width:20.0
+                ),               
+                itemCount: 5,
+),
+    //1.build item
+    //2.build list
+    //3.add item to list
+
+    Widget buildChatItem() => Row(
+            children:
+            [
+                Stack(),
+                SizedBox(),
+                
+                //Expanded(),
+            ],
+        );
+    Widget buildStoryItem()=>Container();//container
+}
+class UserModel
+{
+    final int id;
+    final string name;
+    final string phone;
+    UserModel(
+        {
+            @required this.id,
+            @required this.phone,
+            @required this.name,
+        }
+    );
+}
+class UsersScreen extends StatelessWidget
+{
+ List<UserModel> users = [
+  UserModel(
+    id:1,
+    name:'Mohamed',
+    phone: '01114783119',
+  ),
+  UserModel(
+    id:2,
+    name:'Ahmed',
+    phone: '01114783111',
+  ),
+   UserModel(
+    id:3,
+    name:'Ali',
+    phone: '01114784115',
+  ),
+ ]; 
+ body: ListView.separated(
+    itemBuilder: (context, index) => buildUserItem(users[index]),
+    separtorBuilder: (context, index)=>Padding(),
+    itemCount: users.length,
+ ),  
+// CircleAvatar
+// body: Padding(
+//     child:Row(
+//     children:
+//     [
+//         CircleAvatar(
+//             radius:25.0,
+//             child: Text(
+//                 '1',
+//                 style: TextStyle(
+//                     fontSize: 25.0,
+//                     fontWeight:FontWeight.bold,
+//                 ),
+//             )
+//         ),
+//         SizedBox(
+//             width:20.0
+//         ),
+//         Column(
+//             mainAxisSize:MainAxisSize.min,
+//             children:
+//             [
+//                 Text(
+//                     'Mohamed',
+//                     style: TextStyle(
+//                     fontSize: 25.0,
+//                     fontWeight:FontWeight.bold,
+//                 ),
+//                 ),
+//                 Text('01114783119',
+//                 style: TextStyle(
+//                     color:Colors.grey,
+//                 ),
+//                 ),
+//             ]
+//         )
+
+//     ],
+// ),
+// ),
+}
+
+
+// sateful widget & stateless widget
+class CounterScreen extends StatelessWidget
+{
+    body: Row()
+}
+======================================================
+// flutter project Architecture
+==> lib/
+--> layout
+--> models
+--> modules
+--> shared/
+    =>components
+      =>components.dart
+      =>constants.dart
+    =>network
+      =>local
+      =>remote
+    =>styles  
+
+

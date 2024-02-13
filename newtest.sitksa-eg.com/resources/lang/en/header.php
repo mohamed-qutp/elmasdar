@@ -1,0 +1,31 @@
+<?php
+return 
+[
+    'services'=>'Services',
+    'erpsystem'=>'ERP System ',
+    'possystem'=>'Point of Sale System',
+    'webdevelopment'=>'Web Development',
+    'mobileapplication'=>'Mobile Application',
+    'webapplication'=>'Web Application',
+    'cybersecurity'=>'Cyber Security',
+    'digitalmarketing'=>'Digital Marketing',
+    'customersupport'=>'Technical Support',
+    'solutions'=>'Solutions',
+    'bydepartment'=>'By Department',
+    'accounting'=>'Accounting',
+    'humancapitalmanagement'=>'Human Capital Management',
+    'supplychainmanagement'=>'Supply Chain Management',
+    'inventory'=>'Inventory',
+    'projectmanagementandworkflow'=>'Project Management and Workflow',
+    'taskmanagementsystem'=>'Task Management System',
+    'byindustry'=>'By Industry',
+    'realestate'=>'Real Estate',
+    'constructionsandcontracting'=>'Constructions and Contracting',
+    'manufacturingandindustrialproduction'=>'Manufacturing and Industrial Production',
+    'education'=>'Education',
+    'rentalofvehicles'=>'Rental of vehicles',
+    'restaurantsandcaterings'=>'Restaurants & Caterings',
+    'clients'=>'Clients',
+    'buynow'=>'Buy Now',
+
+];
