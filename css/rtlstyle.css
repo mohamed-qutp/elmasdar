@@ -22,7 +22,7 @@ body {
 }
 
 a {
-  color: #4f84c4;
+  color: #286679;
   transition: 0.3s;
 }
 
@@ -385,8 +385,35 @@ a:focus {
   background: #ffffff;
 }
 
-.page-header a:last-child::after {
-  display: none;
+.header .navbar-light a.nav-link {
+  position: relative;
+  padding: 8px 10px;
+  display: inline-block;
+  padding-bottom: 0 !important;
+  color: #000000;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.header .navbar-light a.nav-link:hover,
+.header .navbar-light a.nav-link.active {
+  opacity: 0.8 !important;
+}
+.header .navbar-light a.nav-link::before {
+  content: "";
+  position: absolute;
+  transform: scaleX(0);
+  height: 2px;
+  background-color: #00539c;
+  width: 6rem;
+  right: 0;
+  bottom: -7px;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.header .navbar-light a.nav-link:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 @media (max-width: 500px) {
@@ -520,6 +547,7 @@ a:focus {
   position: relative;
   width: 100%;
   padding: 25px 30px;
+  opacity: 0.8;
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.03) 96%,
@@ -532,6 +560,7 @@ a:focus {
 }
 
 .service .service-item:hover {
+  opacity: 1;
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.03) 96%,
@@ -1758,7 +1787,7 @@ a:focus {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  background: rgba(79, 132, 196, 0.8);
+  background: #286679;
   border-radius: 0;
 }
 
